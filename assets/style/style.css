@@ -1,0 +1,100 @@
+*{
+    border-radius: 5px; 
+}
+
+body {
+background-image: url("../images/desk-with-laptop-cup-coffee-calendar_1112-145.jpg");
+background-repeat: repeat-y;
+background-size: cover;
+
+}
+#page-wrapper {
+    opacity:0.8;
+    background-color:rgba(204, 204, 204, 0.171);
+    position: absolute;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1;
+}
+
+.my-nav a {
+    color: white;
+}
+
+#banner {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+
+.main-content {
+    padding-top: 56px;  
+    background: black;
+    opacity:1 ;
+   
+}
+
+.project-thumbnail {
+    margin-bottom: 10px;
+}
+
+#contact-info {
+    color: white;
+}
+
+#about-me-content {
+    color: white;
+    padding: 15px;
+}
+
+#myPhoto {
+    padding: 10px;
+}
+
+#contact-info {
+}
+.gitHubLogo {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.github-info {
+    float: left;
+    max-width: 50px;
+
+}
+
+.linkedInLogo {
+    max-height: 50px;
+    max-width: 50px; 
+}
+
+.linkedIn-info {
+    float: left;
+}
+
+.emailLogo {
+    max-height: 50px;
+    max-width: 50px;   
+}
+
+.email-info {
+    float: left;  
+}
+
+#footer {
+    background-color: black;
+    opacity: 0.8 ;
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526); 
+}
+
+#footer a {
+    color: white;
+}
