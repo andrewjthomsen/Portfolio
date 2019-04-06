@@ -10,7 +10,7 @@ background-size: cover;
 }
 #page-wrapper {
     opacity:0.8;
-    background-color:rgba(204, 204, 204, 0.171);
+    /* background-color:rgba(204, 204, 204, 0.171); */
     position: absolute;
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
@@ -25,6 +25,7 @@ background-size: cover;
 .my-nav a {
     color: white;
 }
+
 
 #banner {
     padding-top: 20px;
